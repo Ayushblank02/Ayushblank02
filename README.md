@@ -3,143 +3,143 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/lab-header.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/lab-header-light.svg">
-  <img src="./assets/lab-header.svg" alt="Ayush Srivastava — a dark engineering lab for computer vision, applied ML, and backend systems." width="100%">
+  <img src="./assets/lab-header.svg" alt="Ayush Srivastava — engineering lab" width="100%">
 </picture>
 
 <br>
 
-[![GitHub](https://img.shields.io/badge/GitHub-Ayushblank02-161b22?style=flat-square&logo=github&logoColor=white)](https://github.com/Ayushblank02)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayush-srivastava-b34043252/)
-[![Profile README](https://img.shields.io/badge/status-works%20on%20my%20machine%3F-9FE870?style=flat-square&labelColor=202830)](https://github.com/Ayushblank02)
+<a href="https://github.com/Ayushblank02"><img src="https://img.shields.io/badge/GitHub-Ayushblank02-202830?style=flat-square&logo=github" alt="GitHub"></a>
+<a href="https://www.linkedin.com/in/ayush-srivastava-b34043252/"><img src="https://img.shields.io/badge/LinkedIn-Let's_connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 
-**Computer vision · applied machine learning · backend engineering**
+### AI/ML · Computer Vision · Backend Engineering
 
-*I investigate the edge cases that ruin the demo.*
+**I build across the stack—from a model's decision to the API that makes it useful.**
 
 </div>
 
 ---
 
 ```text
-ayush@lab:~$ cat /about.txt
+ayush@lab:~$ cat /manifesto
 
-Name       : Ayush Srivastava
-Mode       : build → measure → break → understand → repeat
-Interests  : computer vision, applied ML, backend systems
-Bias       : evidence over vibes
-Current bug: probably an off-by-one somewhere
+I don't want a model that merely returns an answer.
+I want to understand where that answer came from,
+what happens when the input gets weird,
+and how the whole thing behaves outside a notebook.
 ```
 
-I build software across computer vision, machine learning, and backend engineering. I’m interested in the distance between *a model that runs* and *a system that behaves predictably*: evaluation, failure analysis, interfaces, and reproducible experiments included.
+I'm an engineer interested in the seams between **applied machine learning, AI applications, and backend systems**. My projects range from retrieval-grounded question answering and explainable credit-risk modelling to NLP classification and access-governance APIs.
 
-## `01 // projects worth opening`
+Different problems, same instinct: make the system understandable, test its assumptions, and don't let a polished demo hide the hard parts.
+
+## `01 / selected builds`
+
+Four projects. Four different engineering problems.
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/Ayushblank02/face-annotation-parser">face-annotation-parser</a></h3>
-      <p>Annotation tooling that converts manually marked face images into ground-truth JSON for detection evaluation.</p>
-      <p><code>Python</code> · evaluation tooling</p>
-      <sub>Useful infrastructure is still engineering.</sub>
+      <h3>◈ <a href="https://github.com/Ayushblank02/medibot-rag">MediBot RAG</a></h3>
+      <p><b>Give answers a source to stand on.</b></p>
+      A document-grounded medical Q&A application built around retrieval-augmented generation. The interesting work is not just calling an LLM—it's getting documents into useful chunks, retrieving relevant context, and keeping answers tied to the material.
+      <br><br>
+      <code>Python</code> <code>LangChain</code> <code>FAISS</code> <code>Hugging Face</code> <code>FastAPI</code>
+      <br><br>
+      <sub>Engineering question: did retrieval bring back the right evidence before generation began?</sub>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/Ayushblank02/accessguard">AccessGuard</a></h3>
-      <p>Enterprise access governance and recertification platform.</p>
-      <p><code>Java</code> · <code>Spring Boot</code> · <code>PostgreSQL</code> · <code>Docker</code></p>
-      <sub>Because permissions should not run on vibes.</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Ayushblank02/loanrisk-ai">LoanRisk AI</a></h3>
-      <p>Credit-risk prediction with class-imbalance handling and per-prediction explainability.</p>
-      <p><code>Python</code> · <code>scikit-learn</code> · <code>XGBoost</code> · <code>SHAP</code></p>
-      <sub>A prediction without context is just a number with confidence.</sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Ayushblank02/fake-news-intelligence-platform">Fake News Intelligence</a></h3>
-      <p>NLP-based classification with confidence scoring and an interactive dashboard.</p>
-      <p><code>Python</code> · <code>TF-IDF</code> · <code>SVM</code> · <code>Streamlit</code></p>
-      <sub>Classifier output ≠ truth oracle.</sub>
+      <h3>◈ <a href="https://github.com/Ayushblank02/loanrisk-ai">LoanRisk AI</a></h3>
+      <p><b>A risk score should be explainable.</b></p>
+      A credit-risk modelling project focused on imbalanced data, model evaluation, and interpreting predictions—not treating a classifier's output as a decision by itself.
+      <br><br>
+      <code>Python</code> <code>scikit-learn</code> <code>XGBoost</code> <code>SMOTE</code> <code>SHAP</code>
+      <br><br>
+      <sub>Engineering question: what is the model learning, and what evidence supports an individual prediction?</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/Ayushblank02/medibot-rag">MediBot RAG</a></h3>
-      <p>Document-grounded medical Q&A prototype with PDF ingestion and conversational memory.</p>
-      <p><code>Python</code> · <code>LangChain</code> · <code>FAISS</code> · <code>FastAPI</code></p>
-      <sub>Retrieval quality matters more than confident wording.</sub>
+      <h3>◈ <a href="https://github.com/Ayushblank02/accessguard">AccessGuard</a></h3>
+      <p><b>Permissions need a lifecycle, not just a login.</b></p>
+      A backend-focused access governance and recertification application. This project represents my work on service design, API boundaries, persistence, and security-oriented workflows.
+      <br><br>
+      <code>Java</code> <code>Spring Boot</code> <code>Spring Security</code> <code>PostgreSQL</code> <code>Docker</code>
+      <br><br>
+      <sub>Engineering question: can access decisions be managed and audited consistently?</sub>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/Ayushblank02/SwarmIntelligence">SwarmIntelligence</a></h3>
-      <p>A notebook-based space for swarm-intelligence experiments.</p>
-      <p><code>Jupyter Notebook</code></p>
-      <sub>Emergent behaviour: cool. Reproducibility: cooler.</sub>
+      <h3>◈ <a href="https://github.com/Ayushblank02/fake-news-intelligence-platform">Fake News Intelligence</a></h3>
+      <p><b>Classification is not the same as certainty.</b></p>
+      An NLP application for analysing article text or URLs, presenting a prediction with confidence information and token-level explanations. It includes an uncertainty path rather than forcing every input into a confident binary answer.
+      <br><br>
+      <code>Python</code> <code>TF-IDF</code> <code>SVM</code> <code>Streamlit</code> <code>NLP</code>
+      <br><br>
+      <sub>Engineering question: how should the interface respond when the model is unsure?</sub>
     </td>
   </tr>
 </table>
 
-<details>
-<summary><b>Repository index / open the side quests</b></summary>
-
-- [Browse every public repository](https://github.com/Ayushblank02?tab=repositories)
-- [face-annotation-parser](https://github.com/Ayushblank02/face-annotation-parser) — evaluation support tooling.
-- [MediBot RAG](https://github.com/Ayushblank02/medibot-rag) — retrieval-augmented generation prototype.
-- [AccessGuard](https://github.com/Ayushblank02/accessguard) — backend-focused application.
-- [LoanRisk AI](https://github.com/Ayushblank02/loanrisk-ai) — tabular ML and explainability.
-- [Fake News Intelligence Platform](https://github.com/Ayushblank02/fake-news-intelligence-platform) — NLP classifier and dashboard.
-- [SwarmIntelligence](https://github.com/Ayushblank02/SwarmIntelligence) — notebook experiments.
-
-</details>
-
-## `02 // the lab notebook`
-
-<details open>
-<summary><b>Computer vision: measure the misses</b></summary>
-
-I’m interested in detection quality, localization, evaluation methodology, and the less photogenic part of ML: finding out why a system fails.
-
-My default checklist:
-
-1. Establish a baseline before changing the pipeline.
-2. Separate false positives, false negatives, and localization mismatches.
-3. Inspect failure clusters instead of trusting one aggregate score.
-4. Record the trade-off when a change improves one metric and harms another.
-5. Keep the experiment reproducible enough to rerun.
-
-<sub>Research notes here stay at a general, public level; no internal datasets, private systems, or confidential work details.</sub>
-
-</details>
+<p align="center">
+  <img src="./assets/project-map.svg" alt="Project map connecting retrieval-grounded AI, explainable ML, backend security, and NLP classification" width="100%">
+</p>
 
 <details>
-<summary><b>Backend: boring is a feature</b></summary>
+<summary><b>What connects these projects?</b></summary>
 
-- Clear interfaces beat clever coupling.
-- Validate inputs at boundaries.
-- Make failures diagnosable.
-- Keep configuration explicit.
-- Prefer small components with one reason to change.
-
-</details>
-
-<details>
-<summary><b>Applied ML: the model is not the whole system</b></summary>
-
-- Data leakage can make a bad model look brilliant.
-- Class imbalance can make accuracy misleading.
-- Confidence scores need interpretation, not worship.
-- RAG is only as useful as retrieval, grounding, and evaluation.
+- **Grounding:** MediBot needs relevant source material, not just fluent generated text.
+- **Interpretability:** LoanRisk and Fake News need outputs that people can inspect and question.
+- **System boundaries:** AccessGuard makes API design, persistence, and authorization part of the problem.
+- **User-facing behaviour:** each project has to communicate what the system knows, predicts, or permits—and where its limits are.
 
 </details>
 
-## `03 // tools in the belt`
+## `02 / my engineering range`
+
+<table>
+  <tr>
+    <td width="25%" align="center" valign="top">
+      <h3>AI applications</h3>
+      <sub>Retrieval · grounding · LLM integration · document ingestion</sub>
+    </td>
+    <td width="25%" align="center" valign="top">
+      <h3>Applied ML</h3>
+      <sub>Feature pipelines · model evaluation · imbalance · explainability</sub>
+    </td>
+    <td width="25%" align="center" valign="top">
+      <h3>Computer vision</h3>
+      <sub>Detection tooling · localization · image evaluation · error analysis</sub>
+    </td>
+    <td width="25%" align="center" valign="top">
+      <h3>Backend</h3>
+      <sub>REST APIs · authentication · data modelling · service design</sub>
+    </td>
+  </tr>
+</table>
+
+I don't see these as separate boxes. A useful ML application often needs a retrieval or inference layer, a dependable API, clear data boundaries, and a way to inspect failures. I like working across those boundaries.
+
+## `03 / tools I reach for`
 
 <div align="center">
 
+**Languages**
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+
+**AI / ML / Vision**
+
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square)
+![FAISS](https://img.shields.io/badge/FAISS-2D3748?style=flat-square)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-EC6B23?style=flat-square)
+![SHAP](https://img.shields.io/badge/SHAP-7B61A8?style=flat-square)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![ONNX Runtime](https://img.shields.io/badge/ONNX_Runtime-005CED?style=flat-square&logo=onnx&logoColor=white)
+
+**Backend / Engineering**
+
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
@@ -148,82 +148,73 @@ My default checklist:
 
 </div>
 
+## `04 / supporting work`
+
 <details>
-<summary><b>Debugging protocol (read before blaming the compiler)</b></summary>
+<summary><b>Face annotation parser · internship tooling</b></summary>
+
+I built a face-annotation utility during my HDFC Life internship to convert manually annotated face images into ground-truth data for evaluation. It was a focused tool supporting the face-detection evaluation workflow—not a complete facial-verification product or end-to-end pipeline.
+
+The work gave me practical exposure to annotation formats, bounding-box localization, model comparison, and the importance of reliable evaluation data.
+
+→ [View face-annotation-parser](https://github.com/Ayushblank02/face-annotation-parser)
+
+*The internship tool is intentionally listed as supporting work. A separate public replica pipeline may be added later, once it is built independently and is safe to publish.*
+
+</details>
+
+<details>
+<summary><b>SwarmIntelligence · experiments</b></summary>
+
+A smaller notebook-based space for exploring swarm-intelligence methods.
+
+→ [View repository](https://github.com/Ayushblank02/SwarmIntelligence)
+
+</details>
+
+## `05 / how I debug`
 
 ```python
-while bug_exists:
-    reproduce()
-    inspect_assumptions()
-    isolate_smallest_failure()
+def investigate(failure):
+    reproduce(failure)
+    inspect_inputs_and_assumptions()
+    isolate_the_smallest_case()
     change_one_thing()
-    run_tests()
-
-# If it works only after restarting:
-# congratulations, you have discovered state.
+    measure_again()
 ```
 
-</details>
-
-## `04 // interactive-ish, because GitHub is not a browser app`
-
-This page uses GitHub-supported Markdown, expandable sections, links, and SVG assets. No JavaScript pretending to be a terminal, no fake live metrics, and no externally hosted “activity” numbers presented as engineering achievements.
+I prefer a failure I can explain over a metric I can't reproduce. That means looking beyond the headline score, checking the examples a system gets wrong, and being honest about uncertainty.
 
 <details>
-<summary><b>🕹️ Easter egg: choose your debugging character</b></summary>
+<summary><b>Choose your debugging build</b></summary>
 
-```text
-[1] THE LOG READER
-    Reads the error message before changing 14 files.
-    Passive ability: prevents unforced errors.
+| Build | Special ability |
+|---|---|
+| Log Reader | Reads the error before changing 14 files |
+| Minimal Reproducer | Makes a vague bug small enough to understand |
+| Metric Skeptic | Asks for the denominator behind a perfect score |
+| Documentation Archaeologist | Finds the one sentence that explains everything |
 
-[2] THE MINIMAL REPRODUCER
-    Removes everything until the bug gets nervous.
-    Passive ability: makes vague bugs concrete.
-
-[3] THE METRIC SKEPTIC
-    Asks what the denominator is.
-    Passive ability: detects suspiciously perfect accuracy.
-
-[4] THE DOCUMENTATION ARCHAEOLOGIST
-    Finds the one sentence that explains the entire problem.
-    Passive ability: +10 patience, -2 browser tabs.
-```
-
-*Secret command:* `sudo make me_coffee` → `permission denied: caffeine not installed`
+`sudo make me_coffee` → `permission denied: caffeine not installed`
 
 </details>
 
-<details>
-<summary><b>Things I will not claim</b></summary>
+## `06 / elsewhere`
 
-- That a project is production-ready just because it has an API.
-- That a model is reliable because one metric looks good.
-- That a badge proves proficiency.
-- That every repository is finished.
-- That a green build means the design is correct.
-
-</details>
-
-## `05 // connect`
-
-If you’re working on computer vision, applied ML, backend systems, or have a particularly interesting bug, I’m happy to talk.
+- **GitHub:** [@Ayushblank02](https://github.com/Ayushblank02)
+- **LinkedIn:** [Ayush Srivastava](https://www.linkedin.com/in/ayush-srivastava-b34043252/)
 
 <div align="center">
 
-[**GitHub repositories ↗**](https://github.com/Ayushblank02?tab=repositories) &nbsp; · &nbsp;
-[**LinkedIn ↗**](https://www.linkedin.com/in/ayush-srivastava-b34043252/)
-
-<br>
-
-<sub>Made of Markdown, curiosity, and a suspicious number of print statements.</sub>
+<sub>Four projects, different problem spaces. One recurring question: how do we know the system is doing what we think it is?</sub>
 
 </div>
 
 <!--
-Maintenance notes:
-- Keep project descriptions aligned with their actual repositories.
-- Add benchmarks only with dataset, protocol, and limitations.
-- Do not publish employer-confidential material, private data, or internal architecture.
-- A small accurate profile beats a large collection of decorative widgets.
+Profile maintenance:
+- Keep the four primary projects above the fold.
+- Keep face-annotation-parser as supporting internship tooling, not a full pipeline.
+- Add the independent computer-vision replica only after it exists and is publishable.
+- Verify all project claims against the repositories before adding precise metrics.
+- Never publish internal employer data, private datasets, or confidential architecture.
 -->

@@ -203,6 +203,7 @@ I prefer a failure I can explain over a metric I can't reproduce. That means loo
 
 - **GitHub:** [@Ayushblank02](https://github.com/Ayushblank02)
 - **LinkedIn:** [Ayush Srivastava](https://www.linkedin.com/in/ayush-srivastava-b34043252/)
+- **Gmail:** [@Ayush Srivastava](ayush.blank002@gmail.com)
 
 <div align="center">
 

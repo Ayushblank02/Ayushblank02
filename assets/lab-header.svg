@@ -11,7 +11,7 @@
 <rect x="26" y="22" width="1148" height="34" rx="6" fill="#172129" stroke="#2c3a44"/>
 <circle cx="45" cy="39" r="4" fill="#ff6b6b"/><circle cx="60" cy="39" r="4" fill="#f6c85f"/><circle cx="75" cy="39" r="4" fill="#a6f17b"/>
 <text x="600" y="43" fill="#8b9aa4" font-family="monospace" font-size="12" text-anchor="middle">ayush@lab: ~/profile — zsh</text>
-<text x="48" y="98" fill="#a6f17b" font-family="monospace" font-size="13">$ whoami && cat /mission.txt</text>
+<text x="48" y="98" fill="#a6f17b" font-family="monospace" font-size="13">$ whoami &amp;&amp; cat /mission.txt</text>
 <text x="48" y="150" fill="#eef5f3" font-family="monospace" font-weight="700" font-size="38">AYUSH SRIVASTAVA</text>
 <rect x="49" y="169" width="430" height="3" rx="1.5" fill="url(#line)"/>
 <text x="49" y="202" fill="#c0cbd0" font-family="monospace" font-size="16">computer vision / applied ML / backend systems</text>

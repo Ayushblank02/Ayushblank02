@@ -14,7 +14,7 @@
 <text x="48" y="98" fill="#a6f17b" font-family="monospace" font-size="13">$ whoami &amp;&amp; cat /mission.txt</text>
 <text x="48" y="150" fill="#eef5f3" font-family="monospace" font-weight="700" font-size="38">AYUSH SRIVASTAVA</text>
 <rect x="49" y="169" width="430" height="3" rx="1.5" fill="url(#line)"/>
-<text x="49" y="202" fill="#c0cbd0" font-family="monospace" font-size="16">computer vision / applied ML / backend systems</text>
+<text x="49" y="202" fill="#c0cbd0" font-family="monospace" font-size="16">applied ML / computer vision / backend systems</text>
 <text x="49" y="245" fill="#8b9aa4" font-family="monospace" font-size="13">measure the failure. understand the system. build the fix.</text>
 <g transform="translate(900 91)" fill="none" stroke="#a6f17b" stroke-width="1.4">
 <rect x="0" y="0" width="205" height="146" rx="4" stroke="#385344"/>
